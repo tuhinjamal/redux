@@ -2,7 +2,7 @@ import {
   INCREMENT_COUNTER,
   DECREMENT_COUNTER,
   RESET_COUNTER,
-} from "../constans/counterConstant";
+} from "../constants/counterConstant";
 const initialCounter = { count: 0 };
 
 const counterReducer = (state = initialCounter, action) => {

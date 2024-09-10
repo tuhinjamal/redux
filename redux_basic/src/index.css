@@ -20,7 +20,19 @@ body {
   min-height: 100vh;
 }
 .test {
-  color: red;
-  border: 2px solid red;
+  color: rgb(10, 170, 233);
+
   width: 100%;
+  min-height: 100px;
+  background-color: whitesmoke;
+
+  text-align: center;
+  align-content: center;
+  padding: 8px;
+}
+
+.todo-card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 3%;
 }

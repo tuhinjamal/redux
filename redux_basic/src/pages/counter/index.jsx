@@ -7,7 +7,8 @@ import {
 } from "../../services/actions/counterAction";
 const Counter = () => {
   const [count, setCount] = useState(0);
-  const reduxCount = useSelector((state) => state.count);
+  const reduxCount = useSelector((state) => state.counter.count);
+
   const dispatch = useDispatch();
   const increment = () => {
     dispatch(incrementCounter());
